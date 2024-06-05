@@ -16,7 +16,7 @@ namespace Wordle_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new btnSubmit());
+            Application.Run(new btnSubmit1());
         }
     }
 }

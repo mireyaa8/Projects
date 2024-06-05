@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace Wordle_Project
 {
-    partial class btnSubmit
+    partial class btnSubmit1
     {
         /// <summary>
         /// Required designer variable.
