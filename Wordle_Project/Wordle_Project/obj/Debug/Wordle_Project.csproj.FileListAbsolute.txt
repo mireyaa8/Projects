@@ -1,0 +1,11 @@
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\bin\Debug\Wordle_Project.exe.config
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\bin\Debug\Wordle_Project.exe
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\bin\Debug\Wordle_Project.pdb
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.csproj.AssemblyReference.cache
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.Form1.resources
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.Properties.Resources.resources
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.csproj.GenerateResource.cache
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.csproj.CoreCompileInputs.cache
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.exe
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.pdb
