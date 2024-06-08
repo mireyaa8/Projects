@@ -13,19 +13,7 @@ using System.Windows.Forms;
 
 namespace Wordle_Project
 {
-    public partial class btnSubmit1 : Form
-    {
-        public btnSubmit1()
-        {
-            InitializeComponent();
-        }
-
-        private void btnSubmit_Load(object sender, EventArgs e)
-        {
-
-        }
-    }
-    public partial class WordleForm : Form
+    public partial class Form1 : Form
     {
         private const string WordsTextFile = @"wordsForWordle.txt";
         private const int RowLength = 5;
@@ -43,7 +31,7 @@ namespace Wordle_Project
         private bool IsLastTextBox(int currentTextBoxIndex) => currentTextBoxIndex % RowLength == 0;
         private bool IsAlphabetKeyPressed(string pressedKeystring)
             => pressedKeystring.Count() == 1 && char.IsLetter(pressedKeystring[0]);
-        public WordleForm()
+        public Form1()
         {
             InitializeComponent();
             StartNewGame();
@@ -56,6 +44,7 @@ namespace Wordle_Project
             btnHint.Click += btnHint_Click;
             btnReset.Click += btnReset_Click;
         }
+
         private void FocusTextBook(object sender, MouseEventArgs e)
         {
             if(sender is TextBox textBox)
@@ -111,19 +100,10 @@ namespace Wordle_Project
 
             currentWord = wordList[random.Next(wordList.Count)];
 
-            btnSubmit1.Enabled = true;
+          //  btnSubmit1.Enabled = true;
             btnHint.Enabled = true;
         }
-         public WordleForm()
-         {
-             InitializeComponent();
-             StartNewGame();
-             foreach(TextBox tb in this.Controls.OfType<TextBox>())
-             {
-                 tb.MouseClick += this.FocusTextBox;
-                 tb.keyDown += this.MoveCursor;
-             }
-         }
+
         private List<string> GetAllWords()
         {
             var allWords = new List<string>();
@@ -221,7 +201,7 @@ namespace Wordle_Project
         }
 
         private bool IsCharOnCorrectIndex(int index, char ch) => this.currentWord[index] == ch;
-        private bool IsCharOnCorrectIndex(int index, char ch) => this.currentWord[index] == ch;
+      
 
         private bool IsWordGuessed(string attempt)
         {
@@ -235,11 +215,9 @@ namespace Wordle_Project
         {
             MessageBox.Show("Congratulations, you win!");
 
-            this.btnSubmit1.Enabled = false;
+        //    this.btnSubmit1.Enabled = false;
             this.btnHint.Enabled = false;
-
             this.btnReset.Text = PlayAgainMessage;
-
             ModifyTextBoxesAvailability(false);
         }
         private void ModifyTextBoxesAvailability(bool shouldBeEnabled)
@@ -272,7 +250,7 @@ namespace Wordle_Project
         private void FinalizeLostGame()
         {
             MessageBox.Show($"Sorry you didn't win this time!" + $" The correct word was: {this.currentWord}");
-            btnSubmit1.Enabled = false;
+          //  btnSubmit1.Enabled = false;
             btnHint.Enabled = false;
             btnReset.Text = PlayAgainMessage;
         }
@@ -289,7 +267,7 @@ namespace Wordle_Project
                 tb.Enabled = true;
             }
 
-            btnSubmit1.Enabled = true;
+          //  btnSubmit1.Enabled = true;
             btnHint.Enabled = true;
 
             btnReset.Text = "Reset";
@@ -366,7 +344,7 @@ namespace Wordle_Project
         private void ShowInvalidUseOfHintMessage()
         {
             MessageBox.Show("Free up a space for a hint.");
-            this.btnSubmit1.Focus();
+         //   this.btnSubmit1.Focus();
             this.hintsCount -= 1;
         }
         private void RevealRandomWordLetter(List<int> unavailablePositions)
@@ -399,10 +377,3 @@ namespace Wordle_Project
         }
     }
 }
-
-
-
-
-
-    
-

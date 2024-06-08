@@ -9,3 +9,4 @@ C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\De
 C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.csproj.CoreCompileInputs.cache
 C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.exe
 C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.pdb
+C:\Users\Miri\Documents\GitHub\Game-Of-Life\Wordle_Project\Wordle_Project\obj\Debug\Wordle_Project.btnSubmit1.resources

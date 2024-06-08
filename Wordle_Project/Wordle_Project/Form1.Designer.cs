@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace Wordle_Project
 {
-    partial class btnSubmit1
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -22,9 +22,6 @@ namespace Wordle_Project
             }
             base.Dispose(disposing);
         }
-       
-
-
 
         #region Windows Form Designer generated code
 
