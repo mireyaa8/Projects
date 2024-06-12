@@ -28,33 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.uploadFile = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // uploadFile
             // 
-            this.textBox1.Location = new System.Drawing.Point(993, 269);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 38);
-            this.textBox1.TabIndex = 0;
+            this.uploadFile.AutoSize = true;
+            this.uploadFile.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.uploadFile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.uploadFile.Location = new System.Drawing.Point(729, 643);
+            this.uploadFile.Name = "uploadFile";
+            this.uploadFile.Size = new System.Drawing.Size(161, 34);
+            this.uploadFile.TabIndex = 0;
+            this.uploadFile.Text = "Upload File";
+            this.uploadFile.Click += new System.EventHandler(this.label1_Click);
             // 
-            // maskedTextBox1
+            // label1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(761, 333);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 38);
-            this.maskedTextBox1.TabIndex = 1;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Location = new System.Drawing.Point(971, 643);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(189, 34);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Create Folder";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PeachPuff;
             this.ClientSize = new System.Drawing.Size(1494, 840);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.uploadFile);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "File Manager";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -62,8 +72,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Label uploadFile;
+        private System.Windows.Forms.Label label1;
     }
 }
 
