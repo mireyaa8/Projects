@@ -1,5 +1,0 @@
-C:\Users\Miri\Documents\GitHub\Game-Of-Life\Game\Game\obj\Debug\net6.0\GameOfLife.csproj.AssemblyReference.cache
-C:\Users\Miri\Documents\GitHub\Game-Of-Life\Game\Game\obj\Debug\net6.0\GameOfLife.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Miri\Documents\GitHub\Game-Of-Life\Game\Game\obj\Debug\net6.0\GameOfLife.AssemblyInfoInputs.cache
-C:\Users\Miri\Documents\GitHub\Game-Of-Life\Game\Game\obj\Debug\net6.0\GameOfLife.AssemblyInfo.cs
-C:\Users\Miri\Documents\GitHub\Game-Of-Life\Game\Game\obj\Debug\net6.0\GameOfLife.csproj.CoreCompileInputs.cache
